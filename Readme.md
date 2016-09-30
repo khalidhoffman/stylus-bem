@@ -1,11 +1,11 @@
-# Stylus [![Build Status](https://travis-ci.org/stylus/stylus.svg?branch=master)](https://travis-ci.org/stylus/stylus)
+# Stylus-BEM [![Build Status](https://travis-ci.org/stylus/stylus.svg?branch=master)](https://travis-ci.org/stylus/stylus)
 
- Stylus is a revolutionary new language, providing an efficient, dynamic, and expressive way to generate CSS. Supporting both an indented syntax and regular CSS style.
+ Stylus-BEM is altered version of Stylus for easier use of the BEM naming schema. Stylus is a revolutionary new language, providing an efficient, dynamic, and expressive way to generate CSS. Supporting both an indented syntax and regular CSS style.
 
 ## Installation
 
 ```bash
-$ npm install stylus -g
+$ npm install git+https://github.com/khaliddpdev/stylus.git#stylus-bem
 ```
 
 ## Basic Usage
@@ -32,6 +32,14 @@ form input
   padding: 5px
   border: 1px solid
   border-radius: 5px
+/*! stylus-bem syntax */
+.block
+    /__child
+        color: #000
+    /--mod
+        color: #fff
+        /__child
+            font-size: 2em
 ```
 
 compiles to:
@@ -48,6 +56,17 @@ form input {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+}
+
+/* stylus-bem syntax */
+.block .block__child {
+  color: #000;
+}
+.block--mod {
+  color: #fff;
+}
+.block--mod .block__child {
+  font-size: 2em;
 }
 ```
 
