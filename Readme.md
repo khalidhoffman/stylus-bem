@@ -36,7 +36,7 @@ form input
 .block
     /__child
         color: #000
-    /--mod
+    &--mod
         color: #fff
         /__child
             font-size: 2em
