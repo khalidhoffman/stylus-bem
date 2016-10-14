@@ -21,7 +21,7 @@
     "node": "*"
   },
   "bin": {
-    "stylus": "./bin/stylus"
+    "stylus-bem": "./bin/stylus"
   },
   "scripts": {
     "prepublish": "npm prune",
