@@ -1,7 +1,7 @@
 {
   "name": "stylus-bem",
   "description": "Robust, expressive, and feature-rich CSS superset",
-  "version": "0.54.8",
+  "version": "0.54.9",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "keywords": [
     "css",
@@ -30,11 +30,12 @@
   },
   "dependencies": {
     "css-parse": "1.7.x",
-    "mkdirp": "0.5.x",
     "debug": "*",
-    "sax": "0.5.x",
     "glob": "7.0.x",
-    "source-map": "0.1.x"
+    "mkdirp": "0.5.x",
+    "sax": "0.5.x",
+    "source-map": "0.1.x",
+    "stylus-bem-evaluator": "0.0.1"
   },
   "devDependencies": {
     "should": "8.x",
