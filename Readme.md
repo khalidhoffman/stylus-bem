@@ -5,13 +5,13 @@
 ## Installation
 
 ```bash
-$ npm install git+https://github.com/khaliddpdev/stylus.git#stylus-bem
+$ npm install stylus-bem
 ```
 
 ## Basic Usage
 Watch and compile a stylus file from command line with 
 ```bash
-stylus -w style.styl -o style.css
+stylus-bem -w style.styl -o style.css
 ```
 You can also [try all stylus features on stylus-lang.com](http://stylus-lang.com/try.html), build something with stylus on [codepen](http://codepen.io) or integrate stylus with [gulp](http://gulpjs.com/) using [gulp-stylus](https://www.npmjs.com/package/gulp-stylus) or [gulp-accord](https://www.npmjs.com/package/gulp-accord).
 
