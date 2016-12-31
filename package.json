@@ -1,7 +1,7 @@
 {
   "name": "stylus-bem",
   "description": "Robust, expressive, and feature-rich CSS superset",
-  "version": "0.54.9",
+  "version": "0.54.10",
   "keywords": [
     "css",
     "parser",
